@@ -1,0 +1,13 @@
+.noPostWrapper {
+  padding: 20px;
+  font-size: 13px;
+  border-bottom: 1px solid #dce1e6;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.noPostWrapper > h2 {
+  font-weight: 400;
+  color: grey;
+}

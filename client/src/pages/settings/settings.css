@@ -1,0 +1,83 @@
+/* .container {
+  background-color: tomato;
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 50px;
+  height: 100vh;
+}
+.changeImages {
+  text-align: center;
+}
+.wrapper {
+  background-color: wheat;
+  width: 80%;
+  height: 80%;
+  align-self: center;
+  margin-left: 10%;
+}
+
+.formsettings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60%;
+}
+.inputsettings {
+  width: 80%;
+}
+#uploadPic {
+  display: none;
+}
+
+.hoverSection {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-self: center;
+  top: 25%;
+  left: 30%;
+  z-index: 200;
+  width: 50%;
+  height: 50%;
+  background-color: red;
+}
+
+.hoverSectionWrapper h3 {
+  margin: 20px;
+} */
+
+.settingsOption {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  font-size: 12.5px;
+  justify-content: space-between;
+  margin: 0 20px;
+  width: auto;
+  border-bottom: 1px solid lightgray;
+}
+.settingsOptionTitle {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  color: #626d7a;
+}
+.settingsOptionGiven {
+  text-align: left;
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+.settingsOptionChange {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: #2a5885;
+  display: flex;
+  justify-content: end;
+}
+.settingsOptionInput {
+  height: 15px;
+  align-self: center;
+}

@@ -1,0 +1,22 @@
+.homeContainer {
+  display: flex;
+  margin-top: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sidebar {
+  width: 150px;
+  position: sticky;
+}
+.feed {
+  width: 550px;
+}
+
+.homeWrapper {
+  width: 100%;
+  max-width: 980px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
